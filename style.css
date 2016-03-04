@@ -1,0 +1,194 @@
+body
+{
+    overflow-x: hidden; 
+}
+/* első háttér */
+#first {
+  padding-left:110;
+background: url("https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-width: 100%;
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+ 
+/* menü kezdődik */
+#menu {
+  position:fixed;
+  width:100%;
+  z-index:1;
+}
+
+.btn.sharp {
+  border-radius:0;
+}
+
+.btn-transparent {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-transparent:hover {
+   background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* hivatkozások */
+a.menu {
+  color: #ffffff;
+  font-family: Monospace;
+}
+
+a.menu:hover {
+  color: #ffffff;
+  font-family: Monospace;
+  font-weight:bold;
+  font-size:1.4em;
+  text-decoration:none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-transform: uppercase;
+}
+
+/* innen kezdődik a tartalom*/
+h1 {
+  font-family:Lobster, Monospace;
+  color:#ffffff;
+  font-size:80px;
+}
+h4 {
+  color: #ffffff;
+  opacity: 0.9;
+}
+.progress {
+  width:70%;
+}
+/* linkelés */
+a.alap {
+  color: #ffffff;
+  font-family: Monospace;
+}
+
+a.alap:active {
+  color: #ffffff;
+  font-family: Monospace;
+  text-decoration:none;
+}
+
+a.alap:hover {
+  color: #ffffff;
+  font-family: Monospace;
+  text-decoration:none;
+}
+/* rólamnál */
+#second {
+background-color:#D6D1CB;
+}
+
+h2 {
+  font-family:Lobster, Monospace;
+  color:#000000;
+  font-size:40px;
+}
+
+p.text {
+  font-size:1em;
+}
+.rolam {
+  padding-top:20px;
+  padding-left:70px;
+  padding-right:50px;
+  margin-bottom:0px;
+  background-color:#D6D1CB;
+  position:relative;
+  font-size:1em;
+}
+.pic {
+  padding-right:50px;
+}
+
+
+/* portfólió innen */
+h2.portfolio {
+  font-family:Lobster, Monospace;
+  font-size:60px;
+  color:#ffffff;
+  text-align:center;
+}
+
+.kepek {
+ /* border: 1px solid white;*/
+  border-radius:10px;
+  background-color: rgba (0,0,0,0.2);
+  text-align:center;
+}
+
+#third {
+  padding-left:110;
+background: url("https://farm7.staticflickr.com/6086/6156443026_73fca756b4_o.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-width: 100%;
+}
+/* kapcsolat */
+p.jumbo {
+  font-size:1em;
+}
+.jumbotron {
+  padding-top:0px;
+  padding-left:50px;
+  padding-right:50px;
+  margin-bottom:0px;
+  background-color:#D6D1CB;
+  position:relative;
+}
+/* padding-gombok + alatta háttér*/
+.social {
+  text-align:center;
+  padding-top:50px;
+  padding-bottom:40px;
+}
+
+.ghost-button {
+  width: 200px;
+  padding: 10px;
+  background-color:transparent;
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+   transition: background-color 0.4s ease-out,
+              color 0.4s ease-out;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#last {
+  padding-left:110;
+background: url("https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-width: 100%;
+}
+/*vége*/
+h5 {
+  color: #ffffff;
+  opacity: 0.8;
+}
+.copyright {
+  padding-top:20px;
+  padding-left:50px;
+  padding-right:50px;
+  margin-bottom:0px;
+}
